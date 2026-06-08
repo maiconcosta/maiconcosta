@@ -124,10 +124,10 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: radial-gradient(circle at top, rgb(14 165 233 / 0.16), transparent 24%),
-      linear-gradient(180deg, #050816 0%, #071225 100%);
+    font-family: var(--font-inter), Arial, Helvetica, sans-serif;
   }
   html {
     @apply font-sans;
+    font-family: var(--font-inter), Arial, Helvetica, sans-serif;
   }
 }

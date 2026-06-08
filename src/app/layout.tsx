@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -30,8 +31,18 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${inter.variable} ${jetbrainsMono.variable} dark h-full scroll-smooth antialiased`}
+      suppressHydrationWarning
+      className={`${inter.variable} ${jetbrainsMono.variable} h-full scroll-smooth antialiased`}
     >
+      <head>
+        <Script id="theme-script" strategy="beforeInteractive">
+          {`(() => {
+            const storedTheme = window.localStorage.getItem('theme');
+            const theme = storedTheme === 'light' ? 'light' : 'dark';
+            document.documentElement.classList.toggle('dark', theme === 'dark');
+          })();`}
+        </Script>
+      </head>
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground">
         {children}
       </body>
