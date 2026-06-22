@@ -40,6 +40,7 @@ type HeroSocialLinksProps = {
   items: ReadonlyArray<{
     label: string
     icon: keyof typeof iconMap
+    href: string
   }>
 }
 
@@ -50,15 +51,17 @@ export function HeroSocialLinks({ items }: HeroSocialLinksProps) {
         const Icon: ComponentType<SocialIconProps> = iconMap[item.icon]
 
         return (
-          <button
+          <a
             key={item.label}
-            type="button"
             aria-label={item.label}
             title={item.label}
-            className="inline-flex size-[42px] cursor-pointer items-center justify-center rounded-full border border-[#CBD5E1] bg-white/90 text-sky-700 transition-colors hover:bg-slate-100 dark:border-[#1E293B] dark:bg-[#09111F] dark:text-[#8BE9FD] dark:hover:bg-[#0D1528]"
+            href={item.href}
+            target={item.href.startsWith("http") ? "_blank" : undefined}
+            rel={item.href.startsWith("http") ? "noreferrer" : undefined}
+            className="inline-flex size-[42px] cursor-pointer items-center justify-center rounded-full border border-border bg-card/90 text-[var(--brand-accent)] transition-colors hover:bg-[var(--brand-panel)] hover:text-[var(--brand-accent-strong)]"
           >
             <Icon className="size-[18px]" />
-          </button>
+          </a>
         )
       })}
     </div>
