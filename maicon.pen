@@ -9188,7 +9188,6 @@
           "type": "frame",
           "id": "ttUbQ",
           "width": "fill_container",
-          "gap": 24,
           "padding": [
             0,
             72,
@@ -9206,179 +9205,168 @@
               "stroke": "#1E293B",
               "strokeWidth": 1,
               "strokeAlignment": "inner",
-              "layout": "vertical",
-              "gap": 18,
-              "padding": 36,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "wfxpz",
-                  "fill": "#8BE9FD",
-                  "content": "Sobre mim",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "text",
-                  "id": "ldDrx",
-                  "fill": "#F8FAFC",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Desenvolvedor Full Stack com mais de 9 anos construindo aplicações web e mobile com foco em escalabilidade, arquitetura e entrega de valor.",
-                  "lineHeight": 1.14,
-                  "fontFamily": "Inter",
-                  "fontSize": 34,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "Q5ZowV",
-                  "fill": "#94A3B8",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Especialista em front-end com Next.js, React, React Native e Angular, criando interfaces rápidas, modernas e otimizadas, com atenção a performance, SEO e experiência do usuário.",
-                  "lineHeight": 1.65,
-                  "fontFamily": "Inter",
-                  "fontSize": 17,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "xsfvd",
-                  "fill": "#94A3B8",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "No back-end, atuo com Node.js, Java e Spring Boot, além de Docker, GitHub Actions, Nginx, PostgreSQL e Prisma, sempre com foco em código sustentável, automação e evolução de produto.",
-                  "lineHeight": 1.65,
-                  "fontFamily": "Inter",
-                  "fontSize": 17,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "n3dDe0",
-                  "width": "fill_container",
-                  "gap": 8,
-                  "children": [
-                    {
-                      "id": "bs0sU",
-                      "type": "ref",
-                      "ref": "WuUMk",
-                      "fill": "#111827",
-                      "descendants": {
-                        "zHpCv": {
-                          "content": "9+ anos",
-                          "fill": "#8BE9FD",
-                          "fontWeight": "600"
-                        }
-                      }
-                    },
-                    {
-                      "id": "jOwAv",
-                      "type": "ref",
-                      "ref": "WuUMk",
-                      "fill": "#111827",
-                      "descendants": {
-                        "zHpCv": {
-                          "content": "React",
-                          "fill": "#8BE9FD",
-                          "fontWeight": "600"
-                        }
-                      }
-                    },
-                    {
-                      "id": "QuPSI",
-                      "type": "ref",
-                      "ref": "WuUMk",
-                      "fill": "#111827",
-                      "descendants": {
-                        "zHpCv": {
-                          "content": "Node.js",
-                          "fill": "#8BE9FD",
-                          "fontWeight": "600"
-                        }
-                      }
-                    },
-                    {
-                      "id": "lEbxF",
-                      "type": "ref",
-                      "ref": "WuUMk",
-                      "fill": "#111827",
-                      "descendants": {
-                        "zHpCv": {
-                          "content": "Spring Boot",
-                          "fill": "#8BE9FD",
-                          "fontWeight": "600"
-                        }
-                      }
-                    },
-                    {
-                      "id": "P5bAra",
-                      "type": "ref",
-                      "ref": "WuUMk",
-                      "fill": "#111827",
-                      "descendants": {
-                        "zHpCv": {
-                          "content": "Docker",
-                          "fill": "#8BE9FD",
-                          "fontWeight": "600"
-                        }
-                      }
-                    },
-                    {
-                      "id": "rETAP",
-                      "type": "ref",
-                      "ref": "WuUMk",
-                      "fill": "#111827",
-                      "descendants": {
-                        "zHpCv": {
-                          "content": "Prisma",
-                          "fill": "#8BE9FD",
-                          "fontWeight": "600"
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "PE063",
-              "width": 320,
+              "gap": 24,
+              "padding": 24,
+              "alignItems": "center",
               "children": [
                 {
                   "type": "frame",
-                  "id": "uULl2",
-                  "width": 320,
-                  "fill": "#0B1020",
-                  "cornerRadius": 22,
-                  "stroke": "#1E293B",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
+                  "id": "X9RKG",
+                  "name": "About Text Content",
+                  "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 16,
-                  "padding": 20,
+                  "gap": 18,
                   "children": [
+                    {
+                      "type": "text",
+                      "id": "wfxpz",
+                      "fill": "#8BE9FD",
+                      "content": "Sobre mim",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ldDrx",
+                      "fill": "#F8FAFC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Desenvolvedor Full Stack com mais de 9 anos construindo aplicações web e mobile com foco em escalabilidade, arquitetura e entrega de valor.",
+                      "lineHeight": 1.14,
+                      "fontFamily": "Inter",
+                      "fontSize": 34,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q5ZowV",
+                      "fill": "#94A3B8",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Especialista em front-end com Next.js, React, React Native e Angular, criando interfaces rápidas, modernas e otimizadas, com atenção a performance, SEO e experiência do usuário.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xsfvd",
+                      "fill": "#94A3B8",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No back-end, atuo com Node.js, Java e Spring Boot, além de Docker, GitHub Actions, Nginx, PostgreSQL e Prisma, sempre com foco em código sustentável, automação e evolução de produto.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    },
                     {
                       "type": "frame",
-                      "id": "YZC0T",
+                      "id": "n3dDe0",
                       "width": "fill_container",
-                      "height": 420,
-                      "fill": {
-                        "type": "image",
-                        "enabled": true,
-                        "url": "1775444522503.jpg",
-                        "mode": "fill"
-                      },
-                      "cornerRadius": 18,
-                      "layout": "vertical",
-                      "gap": 12,
-                      "justifyContent": "center",
-                      "alignItems": "center"
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "bs0sU",
+                          "type": "ref",
+                          "ref": "WuUMk",
+                          "fill": "#111827",
+                          "descendants": {
+                            "zHpCv": {
+                              "content": "9+ anos",
+                              "fill": "#8BE9FD",
+                              "fontWeight": "600"
+                            }
+                          }
+                        },
+                        {
+                          "id": "jOwAv",
+                          "type": "ref",
+                          "ref": "WuUMk",
+                          "fill": "#111827",
+                          "descendants": {
+                            "zHpCv": {
+                              "content": "React",
+                              "fill": "#8BE9FD",
+                              "fontWeight": "600"
+                            }
+                          }
+                        },
+                        {
+                          "id": "QuPSI",
+                          "type": "ref",
+                          "ref": "WuUMk",
+                          "fill": "#111827",
+                          "descendants": {
+                            "zHpCv": {
+                              "content": "Node.js",
+                              "fill": "#8BE9FD",
+                              "fontWeight": "600"
+                            }
+                          }
+                        },
+                        {
+                          "id": "lEbxF",
+                          "type": "ref",
+                          "ref": "WuUMk",
+                          "fill": "#111827",
+                          "descendants": {
+                            "zHpCv": {
+                              "content": "Spring Boot",
+                              "fill": "#8BE9FD",
+                              "fontWeight": "600"
+                            }
+                          }
+                        },
+                        {
+                          "id": "P5bAra",
+                          "type": "ref",
+                          "ref": "WuUMk",
+                          "fill": "#111827",
+                          "descendants": {
+                            "zHpCv": {
+                              "content": "Docker",
+                              "fill": "#8BE9FD",
+                              "fontWeight": "600"
+                            }
+                          }
+                        },
+                        {
+                          "id": "rETAP",
+                          "type": "ref",
+                          "ref": "WuUMk",
+                          "fill": "#111827",
+                          "descendants": {
+                            "zHpCv": {
+                              "content": "Prisma",
+                              "fill": "#8BE9FD",
+                              "fontWeight": "600"
+                            }
+                          }
+                        }
+                      ]
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YZC0T",
+                  "name": "About Photo Embedded",
+                  "width": 280,
+                  "height": 338,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "public/maicon-costa.jpg",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center"
                 }
               ]
             }

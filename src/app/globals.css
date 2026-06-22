@@ -49,42 +49,52 @@
 }
 
 :root {
-  color-scheme: dark;
-  --background: #f8fafc;
-  --foreground: #050816;
-  --card: #ffffff;
-  --card-foreground: #050816;
+  color-scheme: light;
+  --background: #f6fafc;
+  --foreground: #08111f;
+  --card: #fcfeff;
+  --card-foreground: #08111f;
   --popover: #ffffff;
-  --popover-foreground: #050816;
-  --primary: #0f172a;
-  --primary-foreground: #f8fafc;
-  --secondary: #e2e8f0;
-  --secondary-foreground: #0f172a;
-  --muted: #e2e8f0;
-  --muted-foreground: #475569;
-  --accent: #dbeafe;
-  --accent-foreground: #0f172a;
+  --popover-foreground: #08111f;
+  --primary: #116f8f;
+  --primary-foreground: #f8fcff;
+  --secondary: #e8f1f5;
+  --secondary-foreground: #0d2534;
+  --muted: #edf5f8;
+  --muted-foreground: #597489;
+  --accent: #d9eef5;
+  --accent-foreground: #0d2534;
   --destructive: #dc2626;
-  --border: #cbd5e1;
-  --input: #cbd5e1;
-  --ring: #38bdf8;
-  --chart-1: #38bdf8;
+  --border: #d7e5ec;
+  --input: #d7e5ec;
+  --ring: #116f8f;
+  --chart-1: #116f8f;
   --chart-2: #8be9fd;
-  --chart-3: #60a5fa;
+  --chart-3: #53a9ca;
   --chart-4: #c084fc;
   --chart-5: #22d3ee;
   --radius: 1.125rem;
-  --sidebar: #ffffff;
-  --sidebar-foreground: #050816;
-  --sidebar-primary: #0f172a;
-  --sidebar-primary-foreground: #f8fafc;
-  --sidebar-accent: #e2e8f0;
-  --sidebar-accent-foreground: #0f172a;
-  --sidebar-border: #cbd5e1;
-  --sidebar-ring: #38bdf8;
+  --sidebar: #fcfeff;
+  --sidebar-foreground: #08111f;
+  --sidebar-primary: #116f8f;
+  --sidebar-primary-foreground: #f8fcff;
+  --sidebar-accent: #e8f1f5;
+  --sidebar-accent-foreground: #0d2534;
+  --sidebar-border: #d7e5ec;
+  --sidebar-ring: #116f8f;
+  --brand-accent: #116f8f;
+  --brand-accent-strong: #0d5d78;
+  --brand-accent-soft: #d9eef5;
+  --brand-accent-muted: #597489;
+  --brand-panel: #edf5f8;
+  --brand-icon-surface: #eef6f9;
+  --brand-glow: rgb(17 111 143 / 0.18);
+  --hero-gradient-start: #eef7fb;
+  --hero-gradient-end: #f8fafc;
 }
 
 .dark {
+  color-scheme: dark;
   --background: #050816;
   --foreground: #f8fafc;
   --card: #0b1020;
@@ -116,6 +126,15 @@
   --sidebar-accent-foreground: #f8fafc;
   --sidebar-border: #1e293b;
   --sidebar-ring: #8be9fd;
+  --brand-accent: #8be9fd;
+  --brand-accent-strong: #c7f3ff;
+  --brand-accent-soft: #162033;
+  --brand-accent-muted: #94a3b8;
+  --brand-panel: #0b1020;
+  --brand-icon-surface: #09111f;
+  --brand-glow: rgb(56 189 248 / 0.22);
+  --hero-gradient-start: #050816;
+  --hero-gradient-end: #071225;
 }
 
 @layer base {
