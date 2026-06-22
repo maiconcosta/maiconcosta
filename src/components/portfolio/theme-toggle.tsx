@@ -41,7 +41,7 @@ export function ThemeToggle() {
       aria-label={mounted && theme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"}
       aria-pressed={mounted ? theme === "dark" : true}
       onClick={handleToggle}
-      className="inline-flex size-[42px] cursor-pointer items-center justify-center rounded-full border border-[#CBD5E1] bg-white/90 text-sky-700 transition-colors hover:bg-slate-100 dark:border-[#1E293B] dark:bg-[#09111F] dark:text-[#8BE9FD] dark:hover:bg-[#0D1528]"
+      className="inline-flex size-[42px] cursor-pointer items-center justify-center rounded-full border border-border bg-card/90 text-[var(--brand-accent)] transition-colors hover:bg-[var(--brand-panel)] hover:text-[var(--brand-accent-strong)]"
     >
       {mounted && theme === "light" ? (
         <Moon className="size-[18px]" />
