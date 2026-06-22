@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maicon Costa
 
-## Getting Started
+**Desenvolvedor Full Stack** -- Arquitetura, performance e produto convivendo na mesma entrega.
 
-First, run the development server:
+Mais de 9 anos construindo aplicações web e mobile com foco em escalabilidade e clareza visual. Atuo do front-end ao deploy, entregando produtos que operam em produção com qualidade e consistencia.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Stack principal
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Contexto     | Tecnologias                                           |
+| ------------ | ----------------------------------------------------- |
+| Front-end    | React, Next.js, Angular, Tailwind, React Native       |
+| Back-end     | Node.js, Java, Spring Boot, Fastify, Express, GraphQL |
+| Dados        | PostgreSQL, Prisma, MySQL, Redis, Supabase            |
+| Cloud/DevOps | AWS, Azure, Docker, Nginx, Linux, GitHub Actions      |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### Destaques
 
-To learn more about Next.js, take a look at the following resources:
+- **9+ anos** de experiência em web e mobile
+- **20+** atuacoes em projetos
+- **Full stack** do front-end ao deploy
+- **UTC-3** -- Brasil com atuação remota
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Projeto em destaque
 
-## Deploy on Vercel
+**Cognitus Sales** -- Aplicativo desenvolvido para a forca de vendas do ERP Cognitus, com foco em mobilidade, produtividade comercial e acesso rapido as informacoes da operacao.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`Java` `Spring Boot` `React Native`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### Contato
+
+- [LinkedIn](https://www.linkedin.com/in/maiconcostawd/)
+- [GitHub](https://github.com/maiconcosta)
+- [maiconcostawd@hotmail.com](mailto:maiconcostawd@hotmail.com)
+
+---
+
+> Pronto para transformar uma ideia em produto?
