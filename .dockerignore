@@ -1,0 +1,16 @@
+node_modules
+.next
+.git
+.env
+.env.local
+.env.development
+.env.production
+maicon.pen
+Cognitus Sales.jpg
+perfil.png
+README.md
+AGENTS.md
+CLAUDE.md
+.github
+*.log
+npm-debug.log*

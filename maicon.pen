@@ -8837,25 +8837,6 @@
                               "fontWeight": "600"
                             }
                           }
-                        },
-                        {
-                          "id": "dkfXo",
-                          "type": "ref",
-                          "ref": "ghKmL",
-                          "fill": "#09111F",
-                          "stroke": "#8BE9FD",
-                          "strokeAlignment": "inner",
-                          "strokeWidth": 1,
-                          "descendants": {
-                            "vLff5": {
-                              "enabled": false
-                            },
-                            "ydXf3": {
-                              "content": "Explorar cases",
-                              "fill": "#8BE9FD",
-                              "fontWeight": "600"
-                            }
-                          }
                         }
                       ]
                     },
@@ -9102,7 +9083,7 @@
                   "fill": "#94A3B8",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "projetos entregues",
+                  "content": "atuações em projetos",
                   "lineHeight": 1.45,
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -9127,7 +9108,7 @@
                   "type": "text",
                   "id": "tR4kF",
                   "fill": "#8BE9FD",
-                  "content": "Full stack",
+                  "content": "B2B & SaaS",
                   "fontFamily": "Inter",
                   "fontSize": 34,
                   "fontWeight": "700"
@@ -9138,7 +9119,7 @@
                   "fill": "#94A3B8",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "do front-end ao deploy",
+                  "content": "soluções para operação, produto e times internos",
                   "lineHeight": 1.45,
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -9163,7 +9144,7 @@
                   "type": "text",
                   "id": "eMmWL",
                   "fill": "#8BE9FD",
-                  "content": "UTC-3",
+                  "content": "APIs & Cloud",
                   "fontFamily": "Inter",
                   "fontSize": 34,
                   "fontWeight": "700"
@@ -9174,7 +9155,7 @@
                   "fill": "#94A3B8",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Brasil com atuação remota",
+                  "content": "integrações, dados e deploy em produção",
                   "lineHeight": 1.45,
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -9359,7 +9340,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "public/maicon-costa.jpg",
+                    "url": "perfil.png",
                     "mode": "fill"
                   },
                   "cornerRadius": 18,
@@ -11929,7 +11910,7 @@
                 {
                   "type": "frame",
                   "id": "V01qMB",
-                  "width": "fill_container",
+                  "width": 640,
                   "height": 462,
                   "fill": "#0B1020",
                   "cornerRadius": 18,
@@ -11943,7 +11924,12 @@
                       "id": "OuwSV",
                       "width": "fill_container",
                       "height": 198,
-                      "fill": "#09111F",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "Cognitus Sales.jpg",
+                        "mode": "fill"
+                      },
                       "cornerRadius": [
                         18,
                         18,
@@ -11953,27 +11939,7 @@
                       "layout": "vertical",
                       "gap": 12,
                       "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "ORp4I",
-                          "width": 30,
-                          "height": 30,
-                          "icon": "layout-dashboard",
-                          "library": "lucide",
-                          "fill": "#8BE9FD"
-                        },
-                        {
-                          "type": "text",
-                          "id": "rjxsb",
-                          "fill": "#94A3B8",
-                          "content": "Thumb do dashboard",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
+                      "alignItems": "center"
                     },
                     {
                       "type": "frame",
@@ -11996,7 +11962,7 @@
                               "type": "text",
                               "id": "X8M9H",
                               "fill": "#F8FAFC",
-                              "content": "Dashboard de Operações",
+                              "content": "Cognitus Sales",
                               "fontFamily": "Inter",
                               "fontSize": 21,
                               "fontWeight": "700"
@@ -12007,7 +11973,7 @@
                               "fill": "#94A3B8",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Visualização de métricas, filtros e fluxo operacional para rotinas críticas do negócio.",
+                              "content": "Aplicativo desenvolvido para a força de vendas do ERP Cognitus, com foco em mobilidade, produtividade comercial e acesso rápido às informações da operação.",
                               "lineHeight": 1.5,
                               "fontFamily": "Inter",
                               "fontSize": 14,
@@ -12026,7 +11992,7 @@
                                   "fill": "#111827",
                                   "descendants": {
                                     "zHpCv": {
-                                      "content": "Next.js",
+                                      "content": "Java",
                                       "fill": "#8BE9FD",
                                       "fontWeight": "600"
                                     }
@@ -12039,7 +12005,7 @@
                                   "fill": "#111827",
                                   "descendants": {
                                     "zHpCv": {
-                                      "content": "TypeScript",
+                                      "content": "Spring Boot",
                                       "fill": "#8BE9FD",
                                       "fontWeight": "600"
                                     }
@@ -12052,7 +12018,7 @@
                                   "fill": "#111827",
                                   "descendants": {
                                     "zHpCv": {
-                                      "content": "PostgreSQL",
+                                      "content": "React Native",
                                       "fill": "#8BE9FD",
                                       "fontWeight": "600"
                                     }
@@ -12069,583 +12035,7 @@
                           "gap": 10,
                           "children": [
                             {
-                              "id": "TsptD",
-                              "type": "ref",
-                              "ref": "ghKmL",
-                              "fill": "#09111F",
-                              "stroke": "#8BE9FD",
-                              "strokeAlignment": "inner",
-                              "strokeWidth": 1,
-                              "descendants": {
-                                "vLff5": {
-                                  "enabled": false
-                                },
-                                "ydXf3": {
-                                  "content": "GitHub",
-                                  "fill": "#8BE9FD",
-                                  "fontWeight": "600"
-                                }
-                              }
-                            },
-                            {
                               "id": "jsCsj",
-                              "type": "ref",
-                              "ref": "C3KOZ",
-                              "fill": "#8BE9FD",
-                              "descendants": {
-                                "RO4Ll": {
-                                  "enabled": false
-                                },
-                                "NEMHS": {
-                                  "content": "Ver Projeto",
-                                  "fill": "#050816",
-                                  "fontWeight": "600"
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "bTGse",
-                  "width": "fill_container",
-                  "height": 462,
-                  "fill": "#0B1020",
-                  "cornerRadius": 18,
-                  "stroke": "#1E293B",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "YUUVM",
-                      "width": "fill_container",
-                      "height": 198,
-                      "fill": "#09111F",
-                      "cornerRadius": [
-                        18,
-                        18,
-                        0,
-                        0
-                      ],
-                      "layout": "vertical",
-                      "gap": 12,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "FtXlD",
-                          "width": 30,
-                          "height": 30,
-                          "icon": "layout-dashboard",
-                          "library": "lucide",
-                          "fill": "#8BE9FD"
-                        },
-                        {
-                          "type": "text",
-                          "id": "rwKWP",
-                          "fill": "#94A3B8",
-                          "content": "Thumb do aplicativo",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Ej925",
-                      "width": "fill_container",
-                      "height": "fill_container",
-                      "layout": "vertical",
-                      "gap": 14,
-                      "padding": 22,
-                      "justifyContent": "space_between",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "P19Uc",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 14,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "XbZJu",
-                              "fill": "#F8FAFC",
-                              "content": "App Interno de Equipe",
-                              "fontFamily": "Inter",
-                              "fontSize": 21,
-                              "fontWeight": "700"
-                            },
-                            {
-                              "type": "text",
-                              "id": "s36PNt",
-                              "fill": "#94A3B8",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Ferramenta para times internos com autenticação, permissões e integrações entre serviços.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "Inter",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "IReAA",
-                              "width": "fill_container",
-                              "gap": 8,
-                              "children": [
-                                {
-                                  "id": "C6eni7",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "React",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                },
-                                {
-                                  "id": "akh44",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "Node.js",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                },
-                                {
-                                  "id": "gCOLQ",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "Prisma",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "kkbZB",
-                          "width": "fill_container",
-                          "gap": 10,
-                          "children": [
-                            {
-                              "id": "Uvr5k",
-                              "type": "ref",
-                              "ref": "ghKmL",
-                              "fill": "#09111F",
-                              "stroke": "#8BE9FD",
-                              "strokeAlignment": "inner",
-                              "strokeWidth": 1,
-                              "descendants": {
-                                "vLff5": {
-                                  "enabled": false
-                                },
-                                "ydXf3": {
-                                  "content": "GitHub",
-                                  "fill": "#8BE9FD",
-                                  "fontWeight": "600"
-                                }
-                              }
-                            },
-                            {
-                              "id": "Z1PTJc",
-                              "type": "ref",
-                              "ref": "C3KOZ",
-                              "fill": "#8BE9FD",
-                              "descendants": {
-                                "RO4Ll": {
-                                  "enabled": false
-                                },
-                                "NEMHS": {
-                                  "content": "Ver Projeto",
-                                  "fill": "#050816",
-                                  "fontWeight": "600"
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "Ctejr",
-              "width": "fill_container",
-              "gap": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "z3k38",
-                  "width": "fill_container",
-                  "height": 462,
-                  "fill": "#0B1020",
-                  "cornerRadius": 18,
-                  "stroke": "#1E293B",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "uSem4",
-                      "width": "fill_container",
-                      "height": 198,
-                      "fill": "#09111F",
-                      "cornerRadius": [
-                        18,
-                        18,
-                        0,
-                        0
-                      ],
-                      "layout": "vertical",
-                      "gap": 12,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "Zz78G",
-                          "width": 30,
-                          "height": 30,
-                          "icon": "layout-dashboard",
-                          "library": "lucide",
-                          "fill": "#8BE9FD"
-                        },
-                        {
-                          "type": "text",
-                          "id": "B7uNR",
-                          "fill": "#94A3B8",
-                          "content": "Thumb da plataforma",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "YCna1",
-                      "width": "fill_container",
-                      "height": "fill_container",
-                      "layout": "vertical",
-                      "gap": 14,
-                      "padding": 22,
-                      "justifyContent": "space_between",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "IleC1",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 14,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "OOk6N",
-                              "fill": "#F8FAFC",
-                              "content": "Plataforma Financeira",
-                              "fontFamily": "Inter",
-                              "fontSize": 21,
-                              "fontWeight": "700"
-                            },
-                            {
-                              "type": "text",
-                              "id": "fKjH4",
-                              "fill": "#94A3B8",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Front-end escalável com foco em velocidade, clareza visual e componentes reutilizáveis.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "Inter",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "oiQti",
-                              "width": "fill_container",
-                              "gap": 8,
-                              "children": [
-                                {
-                                  "id": "y5b5T",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "React",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                },
-                                {
-                                  "id": "KeT8m",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "Next.js",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                },
-                                {
-                                  "id": "f6qeV",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "Scrum",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "KgVwd",
-                          "width": "fill_container",
-                          "gap": 10,
-                          "children": [
-                            {
-                              "id": "ziYNp",
-                              "type": "ref",
-                              "ref": "ghKmL",
-                              "fill": "#09111F",
-                              "stroke": "#8BE9FD",
-                              "strokeAlignment": "inner",
-                              "strokeWidth": 1,
-                              "descendants": {
-                                "vLff5": {
-                                  "enabled": false
-                                },
-                                "ydXf3": {
-                                  "content": "GitHub",
-                                  "fill": "#8BE9FD",
-                                  "fontWeight": "600"
-                                }
-                              }
-                            },
-                            {
-                              "id": "o0gzR",
-                              "type": "ref",
-                              "ref": "C3KOZ",
-                              "fill": "#8BE9FD",
-                              "descendants": {
-                                "RO4Ll": {
-                                  "enabled": false
-                                },
-                                "NEMHS": {
-                                  "content": "Ver Projeto",
-                                  "fill": "#050816",
-                                  "fontWeight": "600"
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "h2Oyx",
-                  "width": "fill_container",
-                  "height": 462,
-                  "fill": "#0B1020",
-                  "cornerRadius": 18,
-                  "stroke": "#1E293B",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "K5bZo",
-                      "width": "fill_container",
-                      "height": 198,
-                      "fill": "#09111F",
-                      "cornerRadius": [
-                        18,
-                        18,
-                        0,
-                        0
-                      ],
-                      "layout": "vertical",
-                      "gap": 12,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "A5hsQ",
-                          "width": 30,
-                          "height": 30,
-                          "icon": "layout-dashboard",
-                          "library": "lucide",
-                          "fill": "#8BE9FD"
-                        },
-                        {
-                          "type": "text",
-                          "id": "TYouO",
-                          "fill": "#94A3B8",
-                          "content": "Thumb da automação",
-                          "fontFamily": "Inter",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "VlGRH",
-                      "width": "fill_container",
-                      "height": "fill_container",
-                      "layout": "vertical",
-                      "gap": 14,
-                      "padding": 22,
-                      "justifyContent": "space_between",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "ZoLYR",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 14,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "PnGCj",
-                              "fill": "#F8FAFC",
-                              "content": "Automação e Integrações",
-                              "fontFamily": "Inter",
-                              "fontSize": 21,
-                              "fontWeight": "700"
-                            },
-                            {
-                              "type": "text",
-                              "id": "IcUUC",
-                              "fill": "#94A3B8",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Orquestração de eventos, APIs e rotinas com rastreabilidade, performance e confiabilidade.",
-                              "lineHeight": 1.5,
-                              "fontFamily": "Inter",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "frame",
-                              "id": "LrWug",
-                              "width": "fill_container",
-                              "gap": 8,
-                              "children": [
-                                {
-                                  "id": "hYh22",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "Fastify",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                },
-                                {
-                                  "id": "zCVHK",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "Redis",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                },
-                                {
-                                  "id": "bqwBY",
-                                  "type": "ref",
-                                  "ref": "WuUMk",
-                                  "fill": "#111827",
-                                  "descendants": {
-                                    "zHpCv": {
-                                      "content": "Docker",
-                                      "fill": "#8BE9FD",
-                                      "fontWeight": "600"
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "gD6Qx",
-                          "width": "fill_container",
-                          "gap": 10,
-                          "children": [
-                            {
-                              "id": "idZdy",
-                              "type": "ref",
-                              "ref": "ghKmL",
-                              "fill": "#09111F",
-                              "stroke": "#8BE9FD",
-                              "strokeAlignment": "inner",
-                              "strokeWidth": 1,
-                              "descendants": {
-                                "vLff5": {
-                                  "enabled": false
-                                },
-                                "ydXf3": {
-                                  "content": "GitHub",
-                                  "fill": "#8BE9FD",
-                                  "fontWeight": "600"
-                                }
-                              }
-                            },
-                            {
-                              "id": "kmEov",
                               "type": "ref",
                               "ref": "C3KOZ",
                               "fill": "#8BE9FD",
@@ -12731,25 +12121,6 @@
                   "gap": 12,
                   "children": [
                     {
-                      "id": "xXPxK",
-                      "type": "ref",
-                      "ref": "ghKmL",
-                      "fill": "#09111F",
-                      "stroke": "#8BE9FD",
-                      "strokeAlignment": "inner",
-                      "strokeWidth": 1,
-                      "descendants": {
-                        "vLff5": {
-                          "enabled": false
-                        },
-                        "ydXf3": {
-                          "content": "GitHub",
-                          "fill": "#8BE9FD",
-                          "fontWeight": "600"
-                        }
-                      }
-                    },
-                    {
                       "id": "h7rPNR",
                       "type": "ref",
                       "ref": "C3KOZ",
@@ -12759,7 +12130,7 @@
                           "enabled": false
                         },
                         "NEMHS": {
-                          "content": "Saiba mais",
+                          "content": "Entrar em contato",
                           "fill": "#050816",
                           "fontWeight": "600"
                         }
@@ -12908,6 +12279,34 @@
       },
       "width": 800,
       "height": 800
+    },
+    {
+      "type": "rectangle",
+      "id": "TiqLZ",
+      "x": 7811,
+      "y": 3849,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "Cognitus%20Sales.jpg",
+        "mode": "fill"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "type": "rectangle",
+      "id": "g22OCS",
+      "x": 10166,
+      "y": 1256,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "perfil.png",
+        "mode": "fill"
+      },
+      "width": 1122,
+      "height": 1402
     }
   ],
   "themes": {
