@@ -93,7 +93,7 @@ export function ProjectCard({
                 type="button"
                 size="lg"
                 onClick={() => setOpen(true)}
-                className="h-10 rounded-md border-0 bg-[var(--brand-accent)] px-6 text-sm font-semibold text-primary-foreground hover:brightness-110"
+                className="h-10 cursor-pointer rounded-md border-0 bg-[var(--brand-accent)] px-6 text-sm font-semibold text-primary-foreground hover:brightness-110"
               >
                 {projectLabel}
               </Button>
@@ -117,7 +117,7 @@ export function ProjectCard({
                   type="button"
                   aria-label="Fechar modal do projeto"
                   onClick={() => setOpen(false)}
-                  className="absolute right-5 top-5 z-20 inline-flex size-11 items-center justify-center rounded-full border border-[#D7E5EC] bg-[#F8FBFD]/92 text-[var(--brand-accent)] shadow-[0_10px_30px_rgba(15,23,42,0.10)] transition-all duration-300 hover:scale-105 hover:bg-[var(--brand-panel)] hover:text-[var(--brand-accent-strong)] dark:border-[#24314B] dark:bg-[#0F172A]/92 dark:shadow-[0_12px_30px_rgba(2,6,23,0.36)]"
+                  className="absolute right-5 top-5 z-20 inline-flex size-11 cursor-pointer items-center justify-center rounded-full border border-[#D7E5EC] bg-[#F8FBFD]/92 text-[var(--brand-accent)] shadow-[0_10px_30px_rgba(15,23,42,0.10)] transition-all duration-300 hover:scale-105 hover:bg-[var(--brand-panel)] hover:text-[var(--brand-accent-strong)] dark:border-[#24314B] dark:bg-[#0F172A]/92 dark:shadow-[0_12px_30px_rgba(2,6,23,0.36)]"
                 >
                   <X className="size-[18px]" />
                 </button>
