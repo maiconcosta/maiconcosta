@@ -17,9 +17,9 @@ export function ScrollNav({ items }: ScrollNavProps) {
   const [visible, setVisible] = useState(false)
   const [activeSection, setActiveSection] = useState<string | null>(null)
   const [indicatorStyle, setIndicatorStyle] = useState({ left: 0, width: 0 })
+  const [snap, setSnap] = useState(false)
   const navRef = useRef<HTMLDivElement>(null)
   const clickedRef = useRef(false)
-  const snapRef = useRef(false)
 
   useEffect(() => {
     const hero = document.querySelector("#hero")
@@ -105,7 +105,7 @@ export function ScrollNav({ items }: ScrollNavProps) {
 
     const handleScrollEnd = () => {
       clickedRef.current = false
-      snapRef.current = false
+      setSnap(false)
       const active = findActiveSection()
       if (active) setActiveSection(active)
     }
@@ -163,7 +163,7 @@ export function ScrollNav({ items }: ScrollNavProps) {
                   const el = document.querySelector(item.href)
                   if (el) {
                     clickedRef.current = true
-                    snapRef.current = true
+                    setSnap(true)
                     setActiveSection(item.href)
                     el.scrollIntoView({ behavior: "smooth" })
                     window.history.pushState(null, "", item.href)
@@ -184,7 +184,7 @@ export function ScrollNav({ items }: ScrollNavProps) {
                 left: `${indicatorStyle.left}px`,
                 width: `${indicatorStyle.width}px`,
                 opacity: indicatorStyle.width > 0 ? 1 : 0,
-                transition: snapRef.current
+                transition: snap
                   ? "none"
                   : "left 300ms ease-out, width 300ms ease-out, opacity 300ms ease-out",
               }}
