@@ -32,7 +32,7 @@ export function HeroSection({
   navItems: PortfolioContent["navItems"]
 }) {
   return (
-    <section className="relative isolate overflow-hidden bg-[linear-gradient(180deg,var(--hero-gradient-start)_0%,var(--hero-gradient-end)_100%)]">
+    <section id="hero" className="relative isolate overflow-hidden bg-[linear-gradient(180deg,var(--hero-gradient-start)_0%,var(--hero-gradient-end)_100%)]">
       <HeroNav items={navItems} />
 
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">

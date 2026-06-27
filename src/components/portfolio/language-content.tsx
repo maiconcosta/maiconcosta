@@ -10,6 +10,7 @@ import { HeroSection } from "./hero-section"
 import { Locale, useLanguage } from "./language-provider"
 import { MetricsSection } from "./metrics-section"
 import { ProjectsSection } from "./projects-section"
+import { ScrollNav } from "./scroll-nav"
 import { StackSection } from "./stack-section"
 
 type PortfolioContentWrapperProps = {
@@ -22,6 +23,7 @@ export function PortfolioContentWrapper({ content }: PortfolioContentWrapperProp
 
   return (
     <main className="flex min-h-screen flex-col">
+      <ScrollNav items={c.navItems} />
       <HeroSection hero={c.hero} navItems={c.navItems} />
       <MetricsSection metrics={c.metrics} />
       <AboutSection about={c.about} />
