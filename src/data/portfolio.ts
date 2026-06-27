@@ -298,4 +298,196 @@ export const portfolioContent = {
   footer: portfolioFooter,
 } as const
 
+export const portfolioNavItemsEn = [
+  { href: "#sobre", label: "About" },
+  { href: "#experiencia", label: "Experience" },
+  { href: "#stack", label: "Stack" },
+  { href: "#portfolio", label: "Portfolio" },
+] as const
+
+export const portfolioHeroEn = {
+  badge: "Available for projects",
+  title: "Maicon Costa",
+  eyebrow: "FullStack Developer",
+  description:
+    "Architecture, performance, and product coexisting in every delivery. Web and mobile projects with visual clarity, solid technical foundation, and operations ready to scale.",
+  primaryCta: {
+    href: "#sobre",
+    label: "Learn more",
+  },
+  secondaryCta: {
+    href: "#portfolio",
+    label: "Explore cases",
+  },
+  socialItems: [
+    {
+      label: "LinkedIn",
+      icon: "linkedin",
+      href: "https://www.linkedin.com/in/maiconcostawd/",
+    },
+    {
+      label: "GitHub",
+      icon: "github",
+      href: "https://github.com/maiconcosta",
+    },
+    {
+      label: "E-mail",
+      icon: "mail",
+      href: "mailto:maiconcostawd@hotmail.com",
+    },
+  ],
+  codeSnippets: portfolioHero.codeSnippets,
+} as const
+
+export const portfolioMetricsEn = [
+  {
+    value: "9+",
+    label: "years of XP in web and mobile",
+    icon: "briefcase",
+  },
+  {
+    value: "20+",
+    label: "projects delivered",
+    icon: "layers",
+  },
+  {
+    value: "15000+",
+    label: "hours coding",
+    icon: "clock",
+  },
+  {
+    value: "2000+",
+    label: "cups of coffee",
+    icon: "coffee",
+  },
+] as const
+
+export const portfolioAboutEn = {
+  eyebrow: "About me",
+  title:
+    "Full Stack Developer with over 9 years building web and mobile applications focused on scalability, architecture, and value delivery.",
+  paragraphs: [
+    "Front-end specialist with Next.js, React, React Native, and Angular, crafting fast, modern, and optimized interfaces with attention to performance, SEO, and user experience.",
+    "On the back-end, I work with Node.js, Java, and Spring Boot, along with Docker, GitHub Actions, Nginx, PostgreSQL, and Prisma — always focused on sustainable code, automation, and product evolution.",
+  ],
+  badges: ["React", "Node.js", "Spring Boot", "Docker", "Prisma"],
+  image: {
+    src: "/perfil.png",
+    alt: "Photo of Maicon Costa",
+  },
+} as const
+
+export const portfolioExperienceEn = {
+  eyebrow: "Experience",
+  title: "Professional timeline",
+  items: [
+    {
+      period: "August 2022 - present | Vitória, ES",
+      role: "Full Stack Developer",
+      company: "Grupo Agoraa",
+      description:
+        "Developed and deployed internal applications using a full Node.js, React.js, and React Native stack with Fastify and Prisma architecture. Implemented scalable full-stack solutions integrating PostgreSQL with REST APIs, ensuring performance and system reliability.",
+    },
+    {
+      period: "December 2020 - August 2022 | Vitória, ES",
+      role: "Front End Developer",
+      company: "Code n' App",
+      description:
+        "Built front-end interfaces for scalable financial products using Next.js and React.js within a Scrum methodology. Optimized performance of financial applications by implementing reusable components and efficient state management.",
+    },
+    {
+      period: "October 2017 - December 2019 | Vitória, ES",
+      role: "Front End Developer",
+      company: "ISH Tecnologia",
+      description:
+        "Developed responsive web applications with Angular and TypeScript, implementing advanced styling with SASS. Collaborated in an agile team using Git for versioning and Scrum methodology for continuous delivery.",
+    },
+    {
+      period: "November 2016 - October 2017 | Vitória, ES",
+      role: "Intern",
+      company: "ISH Tecnologia",
+      description:
+        "Created technological solutions for internal products, contributing to process optimization. Applied programming skills in developing internal tools, accelerating operational workflows.",
+    },
+    {
+      period: "September 2013 - October 2015 | Vila Velha, ES",
+      role: "Web Designer",
+      company: "Loja de Internet",
+      description:
+        "Designed and coded responsive templates using HTML, CSS, JavaScript, and PHP, transforming prototypes into functional and appealing interfaces. Provided multichannel technical support (phone, email, chat), ensuring customer satisfaction and effective problem resolution.",
+    },
+  ],
+  education: {
+    title: "Academic background",
+    course: "Information Systems",
+    school: "FAESA - Centro Universitário",
+    period: "2014 to 2018",
+    description:
+      "Education focused on software development fundamentals, databases, networking, systems analysis, and architecture — serving as a foundation for full-stack practice and technical growth throughout my career.",
+  },
+} as const
+
+export const portfolioStackEn = {
+  eyebrow: "Technologies & stacks",
+  title: "Tools I use to build, integrate, and scale products",
+  categories: portfolioStack.categories,
+} as const
+
+export const portfolioProjectsEn = {
+  eyebrow: "Portfolio",
+  title: "Projects that connect product, operations, and user experience",
+  items: [
+    {
+      title: "Cognitus Sales",
+      description:
+        "App developed for the Cognitus ERP sales force, focused on mobility, commercial productivity, and quick access to operational information.",
+      imageSrc: "/cognitus-sales.jpg",
+      imageAlt: "Cognitus Sales project screen with sales flows and mobile app",
+      tags: ["Java", "Spring Boot", "React Native"],
+      projectLabel: "View Project",
+    },
+  ],
+} as const
+
+export const portfolioCtaEn = {
+  title: "Ready to turn an idea into a product?",
+  description:
+    "I can help with new projects, platform evolution, solution architecture, and digital product development.",
+  primaryHref: "https://wa.me/5527997227489",
+  primaryLabel: "Talk to me",
+} as const
+
+export const portfolioFooterEn = {
+  text: "Maicon Costa - FullStack Developer | 2026",
+  socialItems: [
+    {
+      label: "LinkedIn",
+      icon: "linkedin",
+      href: "https://www.linkedin.com/in/maiconcostawd/",
+    },
+    {
+      label: "GitHub",
+      icon: "github",
+      href: "https://github.com/maiconcosta",
+    },
+    {
+      label: "E-mail",
+      icon: "mail",
+      href: "mailto:maiconcostawd@hotmail.com",
+    },
+  ],
+} as const
+
+export const portfolioContentEn = {
+  navItems: portfolioNavItemsEn,
+  hero: portfolioHeroEn,
+  metrics: portfolioMetricsEn,
+  about: portfolioAboutEn,
+  experience: portfolioExperienceEn,
+  stack: portfolioStackEn,
+  projects: portfolioProjectsEn,
+  cta: portfolioCtaEn,
+  footer: portfolioFooterEn,
+} as const
+
 export type PortfolioContent = typeof portfolioContent

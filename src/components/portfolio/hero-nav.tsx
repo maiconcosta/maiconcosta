@@ -1,5 +1,6 @@
 import Link from "next/link"
 
+import { LanguageToggle } from "./language-toggle"
 import { ThemeToggle } from "./theme-toggle"
 
 type HeroNavProps = {
@@ -25,6 +26,7 @@ export function HeroNav({ items }: HeroNavProps) {
           ))}
         </nav>
 
+        <LanguageToggle />
         <ThemeToggle />
       </div>
     </header>

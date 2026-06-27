@@ -1,5 +1,5 @@
-import { portfolioContent } from "@/data/portfolio"
+import { portfolioContent, portfolioContentEn } from "@/data/portfolio"
 
 export async function GET() {
-  return Response.json(portfolioContent)
+  return Response.json({ pt: portfolioContent, en: portfolioContentEn })
 }

@@ -14,7 +14,10 @@ async function getBaseUrl() {
   return `${protocol}://${host}`
 }
 
-export async function getPortfolioContent(): Promise<PortfolioContent> {
+export async function getPortfolioContent(): Promise<{
+  pt: PortfolioContent
+  en: PortfolioContent
+}> {
   const baseUrl = await getBaseUrl()
   const response = await fetch(`${baseUrl}/api/portfolio`, {
     cache: "no-store",
@@ -24,5 +27,5 @@ export async function getPortfolioContent(): Promise<PortfolioContent> {
     throw new Error("Failed to load portfolio content")
   }
 
-  return response.json() as Promise<PortfolioContent>
+  return response.json()
 }
